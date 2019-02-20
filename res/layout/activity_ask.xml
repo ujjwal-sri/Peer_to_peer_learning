@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ask">
+
+    <EditText
+        android:id="@+id/ETwhatsyourquestion"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="What's your question today?"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <EditText
+        android:id="@+id/ETwhatsitsfield"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:ems="10"
+        android:hint="Which field does it belong?"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="208dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/BAsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ETwhatsyourquestion"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/mybutton"
+        android:text="ASK"
+        android:textColor="#ffffff"
+        tools:ignore="HardcodedText,MissingConstraints,RtlCompat"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ETwhatsyourquestion"
+        android:layout_marginTop="77dp"
+        android:text="Specify the area from the list..."
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RVwhatsitsfield"
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+        tools:ignore="RtlCompat" />
+
+
+</RelativeLayout>

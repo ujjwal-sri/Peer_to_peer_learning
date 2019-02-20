@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QurioSo</string>
+    <string name="emptyString" />
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="emptyStringUnam" />
+    <string name="title_activity_comment">Comment</string>
+    <string name="title_activity_area_of_interest_">AreaOfInterest_</string>
+    <string name="title_activity_area_of_interest">AreaOfInterest</string>
+    <string name="title_activity_aoilatest">AOILatest</string>
+    <string name="title_activity_home_search">Search</string>
+</resources>
