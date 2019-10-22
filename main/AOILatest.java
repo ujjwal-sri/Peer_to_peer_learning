@@ -56,7 +56,8 @@ public class AOILatest extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aoilatest);
-       AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(AOILatest.this);
+       AlertDialog.Builder alertDialogBuilder;
+        alertDialogBuilder = new AlertDialog.Builder(AOILatest.this);
 //        alertDialogBuilder.setTitle("NOTE:");
 //
 //        alertDialogBuilder.setMessage("An email has been sent to your mobile number!");
