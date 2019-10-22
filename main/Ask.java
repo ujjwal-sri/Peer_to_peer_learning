@@ -115,7 +115,7 @@ private RecyclerView rv_area_of_interest_latest;
                     }
 
                     @Override public void onLongItemClick(View view, int position) {
-
+                            Toast.makeText(Ask.this,"Select your Prime areas!!",Toast.LENGTH_SHORT).show();
                     }
                 })
         );
